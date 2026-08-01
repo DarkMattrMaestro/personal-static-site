@@ -45,6 +45,7 @@
 .menu__trigger {
   margin-right: 0 !important;
   color: var(--foreground);
+  -webkit-user-select: none;
   user-select: none;
   cursor: pointer;
 }

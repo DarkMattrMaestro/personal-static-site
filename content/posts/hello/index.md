@@ -1,9 +1,10 @@
 +++
-title = "Hello There, a Third Time"
-date = "2026-07-31T23:12:02"
+title = "Hello There"
+date = "2026-07-31T23:12:00"
 author = "Lorem Ipsum"
-cover = "hello.jpg"
+cover = "half-bold-reader.png"
 description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec interdum metus. Aenean rutrum ligula sodales ex auctor, sed tempus dui mollis. Curabitur ipsum dui, aliquet nec commodo at, tristique eget ante."
+readingTime = true
 +++
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec interdum metus. Aenean rutrum ligula sodales ex auctor, sed tempus dui mollis. Curabitur ipsum dui, aliquet nec commodo at, tristique eget ante. **Donec quis dolor nec nunc mollis interdum vel in purus**. Sed vitae leo scelerisque, sollicitudin elit sed, congue ante. In augue nisl, vestibulum commodo est a, tristique porttitor est. Proin laoreet iaculis ornare. Nullam ut neque quam.

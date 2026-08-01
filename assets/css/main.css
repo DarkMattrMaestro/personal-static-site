@@ -5,6 +5,8 @@
   --font-size: 1rem;
   --line-height: 1.54em;
   --radius: 0;
+
+  scrollbar-color: var(--foreground) var(--background);
 }
 
 html {
@@ -32,6 +34,7 @@ body {
   text-rendering: optimizelegibility;
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
   /* display:flex;

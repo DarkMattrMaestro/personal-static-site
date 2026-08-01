@@ -26,11 +26,12 @@
   padding: 8px;
   margin-top: 8px;
 
-  border: 2px solid color-mix(in srgb, var(--foreground) 10%, transparent);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--foreground) 10%, transparent);
 }
 
-.post:hover {
-  
+.post.on-list:hover {
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--foreground) 20%, transparent);
+  transition: 0.2s linear;
 }
 
 .post-meta {

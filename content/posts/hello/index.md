@@ -2,7 +2,7 @@
 title = "Hello There"
 date = "2026-07-31T23:12:00"
 author = "Lorem Ipsum"
-cover = "half-bold-reader.png"
+cover = "image.png"
 description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec interdum metus. Aenean rutrum ligula sodales ex auctor, sed tempus dui mollis. Curabitur ipsum dui, aliquet nec commodo at, tristique eget ante."
 readingTime = true
 +++

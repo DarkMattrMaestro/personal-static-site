@@ -4,15 +4,13 @@
 {{- if index .Params "cover" -}}
   {{- if .Resources.GetMatch .Params.Cover }}
     {{- $coveraa = (.Resources.GetMatch .Params.Cover).RelPermalink -}}
-  {{- else -}}
-    {{- $coveraa = absURL .Params.Cover -}}
   {{- end -}}
 {{- end -}}
 
-{{ if $coveraa }}
+{{- if $coveraa -}}
   <!-- Cover image found -->
   <img src="{{ $coveraa }}"
     class="post-cover"
-    alt="{{ $coveraa }}{{ .Title | plainify | default " " }}"
+    alt="{{ .Title | plainify | default " " }}"
     title="{{ .Params.CoverCredit |plainify|default "Cover Image" }}" />
-{{ end }}
+{{- end -}}

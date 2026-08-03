@@ -3,7 +3,7 @@
   align-items: flex-start;
   justify-content: space-between;
   margin: 0px 0px;
-  padding: 2px;
+  padding: 0px;
 
   border-left-width: 2px;
   border-left-style: solid;
@@ -21,12 +21,33 @@
 
 .navigation-menu__inner > li {
   flex: 0 0 auto;
-  margin-bottom: 10px;
   white-space: nowrap;
+
+  margin: 0px;
+
+  background-image:
+    linear-gradient(90deg, var(--background) 10%, #0000 16% 84%, var(--background) 90%),
+    linear-gradient(#0000 10%, var(--background) 16% 84%, #0000 90%),
+    repeating-linear-gradient(24deg, #000 0 4px, var(--accent) 4px 6px);
+}
+
+.navigation-menu__inner > li > a {
+  margin: 0;
+  padding: 8px;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.navigation-menu__inner > li:hover {
+  background-image:
+    linear-gradient(90deg, var(--background) 0%,#0000 8% 92%, var(--background) 100%),
+    linear-gradient(#0000 10%, var(--background) 16% 84%, #0000 90%),
+    repeating-linear-gradient(24deg, #000 0 4px, var(--accent) 4px 8px);
 }
 
 .navigation-menu__inner > li:not(:last-of-type) {
-  margin-right: 20px;
+  margin-right: 4px;
 }
 
 .navigation-menu .spacer {
